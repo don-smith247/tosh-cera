@@ -298,16 +298,16 @@ footer{
         gap: 50px;
     }
     .pepe{
-        width: 400px;
+        width: 350px;
     }
     .trt img{
         width: 350px;
     }
-    /* body{
+    body{
         display: flex;
         flex-direction: column;
         overflow-x: hidden;
-    } */
+    }
     .second-btn{
         gap: 30px;
         padding-left: 35px;
@@ -336,5 +336,8 @@ footer{
     .toggle{
         height: 450px;
         padding-top: 60px;
+    }
+    .peri p{
+        width: 330px;
     }
 }
