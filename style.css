@@ -170,7 +170,7 @@ nav{
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    width: 250px;
+    width: 300px;
     gap: 20px;
     color: black;
     padding-top: 100px;
@@ -269,6 +269,19 @@ footer{
 .second-ul{
     display: none;
 }
+.hero img{
+    opacity: 0; /* Initially, the image is hidden */
+    animation: fadeIn 2s ease forwards; /* Animation duration and timing */
+}
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 @media screen and (max-width:775px) {
     .menu{
         display: block;
@@ -277,7 +290,7 @@ footer{
         display: none;
     }
     .first-sec{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .hero img{
         width: 330px;
@@ -287,8 +300,9 @@ footer{
         width: 350px;
     }
     .good{
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
+        gap: 10px;
     }
     .map img{
         width: 300px;
@@ -299,6 +313,13 @@ footer{
     }
     .pepe{
         width: 350px;
+    }
+    .pepe img{
+        width: 70px;
+        padding-top: 10px;
+    }
+    .hfh img{
+        width: 50px;
     }
     .trt img{
         width: 350px;
@@ -334,10 +355,13 @@ footer{
         border-radius: 10px;
     }
     .toggle{
-        height: 450px;
-        padding-top: 60px;
+        height: 330px;
+        padding-top: 40px;
     }
     .peri p{
         width: 330px;
+    }
+    .all-icon img{
+        width: 50px;
     }
 }
