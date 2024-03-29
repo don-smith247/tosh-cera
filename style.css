@@ -282,6 +282,13 @@ footer{
     opacity: 0; 
     animation: fadeIn 2s ease forwards; 
 }
+.hfh:hover{
+    background-color: #FFD300;
+    border: solid 2px black;
+    transition: 1.5s ease;
+    cursor: pointer;
+    color: black;
+}
 
   @keyframes fadeIn {
     from {
