@@ -253,7 +253,7 @@ footer{
     background-color: gray;
     justify-content: center;
     text-align: center;
-    
+    font-weight: 700;
 }
 .last-tet{
     display: flex;
@@ -382,7 +382,7 @@ footer{
         border-radius: 10px;
     }
     .toggle{
-        height: 350px;
+        height: 400px;
         padding-top: 40px;
     }
     .peri p{
@@ -393,6 +393,10 @@ footer{
     }
     .road{
         padding-bottom: 50px;
+    }
+    .second-ul a{
+        color: white;
+        text-decoration: none;
     }
     
 }
